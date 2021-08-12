@@ -1,0 +1,157 @@
+#title {
+    background-color:#FF4C68;
+    color:#fff;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+p {
+    color: #8f8f8f;
+}
+/* Navigation Bar  */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 3%;
+}
+
+/* Dog iphone image  */
+#iphone-dog-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    
+}
+
+/* Feature section  */
+
+#features {
+    padding: 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#ff4c68;
+}
+
+
+/* Testimonial section  */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column  {
+    padding: 3% 2%;
+}
+
+ /* call to action section  */
+ #cta {
+     background-color: #ff4c68;
+     color: #fff;
+     padding: 7% 15%;
+     text-align: center;
+ }
+ .cta-heading {
+     font-size: 2.5rem;
+     padding-bottom: 10%;
+     line-height: 1.5;
+     
+ }
+ .btn-cta {
+     margin: 2% 5%;
+ }
+
+ /* Footer section  */
+ #footer {
+     padding: 7% 15%;
+     text-align: center;
+ }
+
+ .social-icon {
+     margin: 20px 10px;
+     color:#000;
+ }
+
+ .social-icon:hover {
+     background-color:blanchedalmond;
+ }
+
+/* plain css media querry for mobile responsiveness */
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+
+    #iphone-dog-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
